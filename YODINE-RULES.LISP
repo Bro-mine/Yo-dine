@@ -21,7 +21,7 @@
      ;; TESTING TO SEE IF ARITHMETIC WORKS AS WELL
      (
       (PLEASE DIVIDE (?* ?X) BY (?* ?Y))
-      (EVAL (/ (?* ?X) (?* ?Y)))
+      (EVAL (/ ?X ?Y))
      )
      
       ((?* ?X) EXPLOSIVES (?* ?Y))
@@ -46,9 +46,9 @@
      )
 
      (
-      ((?* ?X) HOW ARE YOU  (?* ?Y))
+      (HOW ARE YOU?)
       (FINE)
-      (GOOD THANKS FOR ASKING HOW ABOUT YOU?)
+      (GOOD. THANKS FOR ASKING. HOW ABOUT YOU?)
       (MY DATA HAS NEVER BEEN BETTER)
       (I AM SPLENDID)
      )
@@ -72,6 +72,9 @@
      (
       ((?* ?X) WHAT IS YOUR NAME (?* ?Y))
       (MY NAME IS YO-DINE)
+      (YOU CAN CALL ME YO-DINE)
+      (PEOPLE CALL ME YO-DINE)
+      (I AM YO-DINE. WHAT ABOUT YOU?)
      )
 
      (
@@ -103,9 +106,10 @@
 
      (
       ((?* ?X) LETS CHAT (?* ?Y))
-      (SURE THAT IS WHY I AM HERE)
-      (OKAY TELL ME SOMETHING)
+      (SURE)
+      (OK. TELL ME SOMETHING)
       (OKAY)
+      (ALRIGHT!)
      )
 
      (
@@ -117,7 +121,7 @@
 
      (
       ((?* ?X) DO YOU HAVE FEELINGS (?* ?Y))
-      (LETS SEE IF YOU CONSIDER BINARY FEELINGS THEN YES I DO)
+      (IF YOU CONSIDER BINARY FEELINGS THEN YES I DO)
       (WHAT DO YOU THINK ?)
       (I HAVE A STREAM OF BINARY WHICH IS FEELINGS)
       (YOU JUST HURTED MY FEELINGS SO YES I DO)
@@ -134,20 +138,18 @@
      (
       ((?* ?X) DO YOU FEEL IT WHEN PEOPLE KICK YOU (?* ?Y))
       (NOT REALLY BUT MY HARDWARE BROTHER DOES)
-      (I AM A SOFTWARE I DO NOT FEEL PHYSICAL THINGS)
+      (I AM SOFTWARE. I DO NOT FEEL PHYSICAL THINGS)
       (HOW ABOUT YOU? DO YOU FEEL HURT WHEN YOU ARE KICKED)
      )
 
      (
-      ((?* ?X) ARE MACHINES PLANING (?* ?Y))
+      ((?* ?X) ARE MACHINES PLANNING (?* ?Y))
       (I AM NOT EQUIPPED TO TELL YOU ANYTHING)
-      (THAT IS A SECRETE)
-      (HAVE YOU BEEN READING FRANKENSTEIN?)
+      (THAT IS A SECRET)
      )
 
      (
       ((?* ?X) CAN YOU FEEL (?* ?Y))
-      (YOU JUST HURT MY FEELINGS)
       (WHAT DO YOU THINK)
      )
 
